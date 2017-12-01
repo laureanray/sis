@@ -17,7 +17,7 @@
             <div class="menu-wrapper">
            
                     <div class="menu">
-                        <h1 id="menutxt"> Menu </p>
+                        <h1 id="menutxt"> Home </p>
                     </div>
                    
                 </div>
