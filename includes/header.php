@@ -11,8 +11,18 @@
     <header>
         <div class="container">
             <div class="branding">
+            <img src="img/pup.png" alt="" class="branding-img">
                 <h1 class="branding-text"> PUP <span id="gray"> SIS </span> </h1>
             </div>
+            <div class="menu-wrapper">
+           
+                    <div class="menu">
+                        <h1 id="menutxt"> Menu </p>
+                    </div>
+                   
+                </div>
+</div>
             <nav class="nav-main" >
+          
                 <ul>
-                    <li>
+                   

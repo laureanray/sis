@@ -286,7 +286,7 @@ $(document).ready(function() {
             $("#car").hide();
             $("#armm").hide();
         }
-        else if($value == 'ncr')
+        else if($value == 'regionncr')
         {
             $("#reg1").hide();
             $("#reg2").hide();
@@ -306,7 +306,7 @@ $(document).ready(function() {
             $("#car").hide();
             $("#armm").hide();
         }
-        else if($value == 'car')
+        else if($value == 'regioncar')
         {
             $("#reg1").hide();
             $("#reg2").hide();
@@ -351,4 +351,10 @@ $(document).ready(function() {
         
         
         });
+
+        $(".menu-wrapper").click(function(){
+            console.log("clicked");
+            $(".nav-main").slideToggle("normal");
+        });
+     
 });

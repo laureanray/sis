@@ -1,9 +1,9 @@
 /* Global */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700,800');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -13,6 +13,7 @@ body{
 }
 /*Header */
 header{
+    padding-top: 2px;
     height: 50px;
     width: 100%;
     border-bottom: 1px solid #d6d6d6;
@@ -37,7 +38,14 @@ a{
     font-size: 24px;
     color: #aa0505;;
     text-transform: uppercase;
+    float: right;
     
+}
+.branding-img{
+    width: 25px;
+    padding-top: 11px; 
+    margin-right: 6px;
+    float: left;
 }
 /* for span */
 #gray{
@@ -62,7 +70,7 @@ a{
 
 /*Navigation */
 
-.nav-main ul li a{
+.nav-main ul li{
     text-decoration: none;
     font-weight: bold;
     font-size: 12px;
@@ -82,16 +90,21 @@ a{
 .nav-main ul li{
     list-style: none;
 }
-.nav-main{
-    margin: 0;
+.nav-main ul{
   
-    float: right;
 }
+.nav-main{
+    margin: auto;
+    width: 45%;
+    position: relative;
+   float: right;
+}
+
 
 /* MAIN BODYYY */
 
 section#main-body{
-    min-height: 200px;
+    min-height: 400px;
 }
 section#main-body .left{
     width: 80%;
@@ -577,9 +590,9 @@ footer .copyright{
  
 
 /* Selector */
-select#reg2, select#reg3, select#reg4a, select#reg4b,
+select#reg2, select#reg3, select#reg4a, select#reg4b, select#reg1,
 select#reg5, select#reg6, select#reg7, select#reg8, select#reg9
-select#reg10, select#reg11, select#reg12, select#reg13, select#ncr, select#car,
+select#reg10, select#reg11, select#reg12, select#reg13, select#car,
 select#armm{
     display: none;
 }
@@ -609,3 +622,141 @@ select#armm{
         border-width: 100%;
     }
 }
+/* Menu */
+.menu-wrapper .menu h1#menutxt,
+.menu-wrapper .menu h1#menutxt{
+    font-size: 14px;
+    color: #616161;
+    font-family: 900;
+    width: 65px;
+    height: 25px;
+    padding-top: 6px;
+    border: 2px solid #7e7e7e;
+    text-align: center;
+    border-radius: 4px;
+    transition: all ease 0.3s;
+}
+.menu-wrapper .menu h1#menutxt:hover{
+    cursor: pointer;
+    font-size: 14px;
+    color: #fafafa;
+    font-family: 900;
+    width: 85px;
+    height: 25px;
+    padding-top: 6px;
+    border: 2px solid #2d2d2d;
+    text-align: center;
+    border-radius: 4px;
+    padding-left: 1px;
+    transition: all ease 0.3s;
+    background: #2d2d2d;
+}
+
+.menu-wrapper{
+    display: none;
+}
+/* Mediq Query  */
+@media(max-width: 1050px){
+    .nav-main{
+        width: 50%;
+    }
+}
+@media(max-width: 955px){
+    .nav-main{
+        width: 55%;
+    }
+}
+@media(max-width: 860px){
+    .nav-main{
+        width: 59%;
+    }
+}
+@media(max-width: 800px){
+    .nav-main{
+        width: 62%;
+    }
+}
+@media(max-width: 768px){
+
+    .menu-wrapper{
+        display: inherit;
+        float: right;
+        margin-top: -2px;
+       
+    }
+    .nav-main ul li a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+        color: #636363;
+        transition: all 0.2s ease;
+        display: inline-block;
+        padding-top: 10px;
+        width: 100%;
+        position: inherit;
+        height: 40px;
+
+    }
+
+    .nav-main ul li{
+        cursor: pointer;    
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 12px;
+        height: 40px;
+        color: #636363;
+       
+        float: none;
+        background: white;
+        padding:0;
+        text-align: center;
+        transition: all 0.2s ease;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        
+    }
+    .nav-main ul li:hover{
+        cursor: pointer;    
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 12px;
+        height: 40px;
+       
+        float: none;
+        background: #f7f7f7;
+        padding:0;
+        text-align: center;
+        transition: all 0.2s ease;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        
+    }
+    .nav-main ul{
+        margin: 0;
+        padding: 0;
+       
+    }
+   
+    .nav-main{
+        position: absolute;
+        float: none;
+        margin-top: 51px;
+        padding: 0;
+        width: 100%;
+        background: white;
+        display: none;
+        z-index: -999;
+        
+    }
+    .branding{
+        margin-top: 1px; 
+    }
+  
+    section#main-body{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+}
+

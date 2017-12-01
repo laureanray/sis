@@ -1,16 +1,18 @@
 <?php include "includes/header.php";
 
 ?>  
+                  
 
-                        <a href="#" class="current-link"> Home </a>
-                        <a class="login" href="login.php?type=student"> Students </a>
-                      
-                        <a href="login.php?type=faculty"> Faculty </a>
-                        <a href="login.php?type=administrator"> Admin </a>
+                 
+                     <li > <a href="#" class="current-link"> Home </a></li>
+                     <li><a class="login" href="login.php?type=student"> Students </a></li> 
+
+                       <li> <a href="login.php?type=faculty"> Faculty </a></li>
+                       <li><a href="login.php?type=administrator"> Admin </a></li> 
                         
-                        <a href="#"> FAQ </a>
-                    </li>
+                     
                 </ul>
+              
             </nav>
         </div>
     </header>
@@ -23,7 +25,8 @@
         </div>
         <div class="right">
             <h2>Twitter Feed</h2>
-
+            <a class="twitter-timeline" data-width="250" data-height="300" href="https://twitter.com/ThePUPOfficial?ref_src=twsrc%5Etfw">Tweets by ThePUPOfficial</a>
+             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
         </div>
         </div>
 
@@ -31,6 +34,7 @@
     <footer>
             <div class="container">
                 <div class="footer-wrapper">
+                <img src="img/pup.png" alt="" class="branding-img">
                         <h1 class="branding-text"> PUP <span id="gray"> SIS </span> </h1>
                     <p class="copyright"> Polytechnic University of the Phiippines Student Information System &copy; 2017 All Rights Reserved</p>
                 </div>

@@ -12,7 +12,7 @@
     <header>
         <div class="container">
             <div class="branding">
-                <h1 class="branding-text"> PUP <span id="gray"> SIS </span> <div id="small"> admin</div> </h1>
+                <h1 class="branding-text"> PUP<span id="gray">SIS </span> <div id="small"> admin</div> </h1>
             </div>
             <nav class="nav-main" >
                 <ul>
@@ -240,8 +240,8 @@
 
                             (Residential) Region   
                              <select class="select-short" name="residential_region"  id="selectorRegion" required >   
-                             <option value="ncr" id="ncr">NCR</option>
-                                <option value="car" id="car">CAR</option>                    
+                                <option value="regionncr" id="regionncr">NCR</option>
+                                <option value="regioncar" id="regioncar">CAR</option>                    
                                 <option value="region1" id="region1">REGION I (Ilocos Region)</option>
                                 <option value="region2" id="region2">REGION II (Cagayan Valley)</option>
                                 <option value="region3" id="region3">REGION III</option>
@@ -256,10 +256,23 @@
                                 <option value="region11" id="region11">REGION XI</option>
                                 <option value="region12" id="region12">REGION XII</option>
                                 <option value="region13" id="region13">REGION XIII</option>						
-                              
-                                <option value="armm" id="armm">ARMM</option>
+                                <option value="regionarmm" id="armm">ARMM</option>
                         </select>
 
+                            
+                        <select class="select-short" name="residential_region" id="ncr" required >
+                                <option value="2003" id="options">Metro Manila</option>
+
+                        </select>
+
+                        <select class="select-short" name="residential_region" id="car" required >
+                                <option value="2003" id="options">Abra</option>
+                                <option value="2003" id="options">Apayao</option>
+                                <option value="2003" id="options">Benguet</option>
+                                <option value="2003" id="options">Ifugao</option>
+                                <option value="2003" id="options">Kalinga</option>
+                                <option value="2003" id="options">Mountain Province</option>
+                        </select>
 
                         <select class="select-short" name="residential_region" id="reg1" required >
                                 <option value="2003" id="options">Ilocos Norte</option>
@@ -319,6 +332,20 @@
                                 <option value="2000" id="options">Iloilo</option>
                         </select>
 
+                        <select class="select-short" name="residential_region" id="reg7" required >
+                                <option value="2003" id="options">Bohol</option>
+                                <option value="2002" id="options">Cebu</option>
+                                <option value="2001" id="options">Siquijor</option>
+                        </select>
+
+                        <select class="select-short" name="residential_region" id="reg8" required >
+                                <option value="2003" id="options">Bohol</option>
+                                <option value="2002" id="options">Cebu</option>
+                                <option value="2001" id="options">Siquijor</option>
+                        </select>
+
+
+
 
 
                        
@@ -337,7 +364,7 @@
     <footer>
             <div class="container">
                 <div class="footer-wrapper">
-                        <h1 class="branding-text"> PUP <span id="gray"> SIS </span> <div id="small"> admin</div> </h1>
+                        <h1 class="branding-text"> PUP<span id="gray">SIS </span> <div id="small"> admin</div> </h1>
                     <p class="copyright"> Polytechnic University of the Phiippines Student Information System &copy; 2017 All Rights Reserved</p>
                 </div>
             </div>
