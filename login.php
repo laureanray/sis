@@ -6,22 +6,25 @@ if(isset($_GET['type'])){
         case 'administrator':
         echo "<li><a href='./index.php'> Home </a></li>
         <li>  <a href='login.php?type=student'> Students </a> </li>
-        <li> <a href='login.php?type=faculty'> Faculty </a>
-        <a class='current-link' href='login.php?type=administrator'> Admin </a>";
+        <li> <a href='login.php?type=faculty'> Faculty </a> </li>
+        <li> <a class='current-link' href='login.php?type=administrator'> Admin </a> </li>
+          <li>  <a href='#'> FAQ </a> </li> ";
         break;
     
         case 'faculty':
-        echo "<a href='./index.php'> Home </a>
-        <a href='login.php?type=student'> Students </a>
-        <a class='current-link' href='login.php?type=faculty'> Faculty </a>
-        <a href='login.php?type=administrator'> Admin </a>";
+        echo "<li> <a href='./index.php'> Home </a> </li>
+        <li> <a href='login.php?type=student'> Students </a> </li>
+        <li> <a class='current-link' href='login.php?type=faculty'> Faculty </a> </li>
+        <li> <a href='login.php?type=administrator'> Admin </a> </li>
+        <li>  <a href='#'> FAQ </a> </li> ";
         break;
     
         case 'student':
-        echo "<a href='./index.php'> Home </a>
-        <a class='current-link' href='login.php?type=student'> Students </a>
-        <a href='login.php?type=faculty'> Faculty </a>
-        <a href='login.php?type=administrator'> Admin </a>";
+        echo " <li> <a href='./index.php'> Home </a> </li>
+        <li> <a class='current-link' href='login.php?type=student'> Students </a> </li>
+        <li> <a href='login.php?type=faculty'> Faculty </a> </li>
+        <li> <a href='login.php?type=administrator'> Admin </a> </li>
+        <li>  <a href='#'> FAQ </a> </li> ";
         break;
     
         default:
@@ -39,7 +42,7 @@ else{
 
 ?>
                         
-                        <a href="#"> FAQ </a>
+                    
                     </li>
                 </ul>
             </nav>
