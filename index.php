@@ -4,11 +4,10 @@
                   
 
                  
-                     <li > <a href="#" class="current-link"> Home </a></li>
-                     <li><a class="login" href="login.php?type=student"> Students </a></li> 
-
-                       <li> <a href="login.php?type=faculty"> Faculty </a></li>
-                       <li><a href="login.php?type=administrator"> Admin </a></li> 
+                    <li > <a href="#" class="current-link"> Home </a></li>
+                    <li><a class="login" href="login.php?type=student"> Students </a></li> 
+                    <li> <a href="login.php?type=faculty"> Faculty </a></li>
+                    <li><a href="login.php?type=administrator"> Admin </a></li> 
                         
                      
                 </ul>

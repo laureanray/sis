@@ -4,9 +4,9 @@ if(isset($_GET['type'])){
     $type = $_GET['type'];
     switch($type){
         case 'administrator':
-        echo "<a href='./index.php'> Home </a>
-        <a href='login.php?type=student'> Students </a>
-        <a href='login.php?type=faculty'> Faculty </a>
+        echo "<li><a href='./index.php'> Home </a></li>
+        <li>  <a href='login.php?type=student'> Students </a> </li>
+        <li> <a href='login.php?type=faculty'> Faculty </a>
         <a class='current-link' href='login.php?type=administrator'> Admin </a>";
         break;
     
