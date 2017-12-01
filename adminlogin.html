@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Students Login</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="branding">
+                <h1 class="branding-text"> PUP <span id="gray"> SIS </span> </h1>
+            </div>
+            <nav class="nav-main" >
+                <ul>
+                    <li>
+                        <a href="#"> Home </a>
+                        <a class="login" href="#"> Students </a>
+                      
+                        <a href="#"> Faculty </a>
+                        <a href="#"> Admin </a>
+                        
+                        <a href="#"> FAQ </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="main-body">
+
+        <div class="container">
+            <div class="login-wrapper">
+                <h1> Admin Login</h1>
+                <form action="login.php" method="POST" class="login">
+                    <h3 class="label"> Username</h3>
+                    <input class="normal-input-low" type="text" name="studno" required>
+                 
+                  
+                    <h3 class="label" > Password</h3>
+                    <input type="password" class="normal-input" required>
+                    <br>
+                    <button name="submit"> Log In </button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                        <h1 class="branding-text"> PUP <span id="gray"> SIS </span> </h1>
+                    <p class="copyright"> Polytechnic University of the Phiippines Student Information System &copy; 2017 All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+    
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/mainscript.js"></script>
+
+
+</html>
