@@ -13,8 +13,8 @@
                      
                 </ul>
               
-            </nav>
-        </div>
+            </nav>  
+     
     </header>
     <section id="main-body">
 
@@ -40,8 +40,7 @@
     <footer>
             <div class="container">
                 <div class="footer-wrapper">
-                <img src="img/pup.png" alt="" class="branding-img">
-                        <h1 class="branding-text"> PUP <span id="gray"> SIS </span> </h1>
+               
                     <p class="copyright"> Polytechnic University of the Phiippines Student Information System &copy; 2017 All Rights Reserved</p>
                 </div>
             </div>

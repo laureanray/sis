@@ -9,16 +9,31 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="branding">
-            <img src="img/pup.png" alt="" class="branding-img">
+      
+          
+                 <div class="branding">
+                  <div class="container">
+                      <div class="brand-wrapper">
+                      <img src="img/pup.png" alt="" class="branding-img">
                 <h1 class="branding-text"> PUP <span id="gray"> SIS </span> </h1>
+              
+                      </div>
+                      <div class="menu-wrapper">
+
+                    <div class="menu">
+                        <h1 class="menutxt">
+                            Menu
+                        </h1>
+                        </div>
+                    </div>    
             </div>
+          
+            </div>
+          
+           
             <div class="menu-wrapper">
            
-                    <div class="menu">
-                        <h1 id="menutxt"> Home </p>
-                    </div>
+                   
                    
                 </div>
 </div>

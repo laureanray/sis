@@ -352,9 +352,6 @@ $(document).ready(function() {
         
         });
 
-        $(".menu-wrapper").click(function(){
-            console.log("clicked");
-            $(".nav-main").slideToggle("normal");
-        });
+      
      
 });
