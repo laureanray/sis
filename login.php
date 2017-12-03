@@ -4,7 +4,7 @@ if(isset($_GET['type'])){
     $type = $_GET['type'];
     switch($type){
         case 'administrator':
-        echo "<li><a href='./index.php'> Home </a></li>
+        echo "<ul><li><a href='./index.php'> Home </a></li>
         <li>  <a href='login.php?type=student'> Students </a> </li>
         <li> <a href='login.php?type=faculty'> Faculty </a> </li>
         <li> <a class='current-link' href='login.php?type=administrator'> Admin </a> </li>
@@ -12,7 +12,7 @@ if(isset($_GET['type'])){
         break;
     
         case 'faculty':
-        echo "<li> <a href='./index.php'> Home </a> </li>
+        echo "<ul><li> <a href='./index.php'> Home </a> </li>
         <li> <a href='login.php?type=student'> Students </a> </li>
         <li> <a class='current-link' href='login.php?type=faculty'> Faculty </a> </li>
         <li> <a href='login.php?type=administrator'> Admin </a> </li>
@@ -20,7 +20,7 @@ if(isset($_GET['type'])){
         break;
     
         case 'student':
-        echo " <li> <a href='./index.php'> Home </a> </li>
+        echo "<ul> <li> <a href='./index.php'> Home </a> </li>
         <li> <a class='current-link' href='login.php?type=student'> Students </a> </li>
         <li> <a href='login.php?type=faculty'> Faculty </a> </li>
         <li> <a href='login.php?type=administrator'> Admin </a> </li>
@@ -43,12 +43,12 @@ else{
 ?>
                         
                     
-                    </li>
+                        <div class="img-wrapper"> <img class="lg-passive" src="img/pup-lg.png" alt="">   </div>
                 </ul>
             </nav>
         </div>
     </header>
-    <section id="main-body">
+    <section id="main-body" class="mbody">
 
         <div class="container">
             <?php
@@ -76,13 +76,14 @@ else{
 
     </section>
     <footer>
-            <div class="container">
-                <div class="footer-wrapper">
-                        <h1 class="branding-text"> PUP <span id="gray"> SIS </span> </h1>
-                    <p class="copyright"> Polytechnic University of the Phiippines Student Information System &copy; 2017 All Rights Reserved</p>
-                </div>
-            </div>
-        </footer>
+    <div class="container">
+        <div class="footer-wrapper">
+       
+            <p class="copyright"> pup-sis-wannabe &copy; 2017 All Rights Reserved</p>
+            <p class="copyright"> Laurean Ray S. Bahala</p>
+        </div>
+    </div>
+</footer>
     
 </body>
 <script type="text/javascript" src="js/jquery.js"></script>

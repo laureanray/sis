@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+
     <title>PUP SIS</title>
     <!-- <script
   src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -38,11 +39,7 @@
             </div>
           
            
-            <div class="menu-wrapper">
-           
-                   
-                   
-                </div>
+        
 </div>
             <nav class="nav-main hide" >
           

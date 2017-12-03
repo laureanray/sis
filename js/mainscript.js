@@ -1,19 +1,22 @@
 
 console.log('This is a test');
 $('.menu').on('click', function(){
-    
+  $(".right").toggleClass('hide');
+  $("footer").toggleClass('hide');
     $(".nav-main, .nav-main ").toggleClass("hide show");
     $(".menutxt").toggleClass('.menutxt:hover');
 });
-
+    
 var x = window.innerHeight;
+var y = window.innerWidth;
 console.log('heights');
 console.log(x);
+console.log(y);
 $(".nav-main").css("height", x - (0.08 * x));
-
+$(".menu-wrapper-wrapper").css("margin-left", (y - (y * 0.95)) * -1);
 $(".mbody").css("min-height", x - (97) - (0.08 * x));
 $(document).ready(function() {
-    console.log( "ready!" );
+    console.log( "ready!" );    
     $("#selectorRegion").change(function () {
         
          $value = $("#selectorRegion :selected").attr('value');
@@ -358,11 +361,7 @@ $(document).ready(function() {
             $("#car").hide();
             $("#armm").show();
         }
-
-
-        
         
         });
-
       
      });
