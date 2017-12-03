@@ -25,23 +25,67 @@ a{
 
 .nav-main{
     width: 100%;
-    padding: 0;
+    background: #fafafa;
+    top: 0;
+    padding-top: 50px;
+   
+    position: absolute;
     display: none;
+}  
+
+.show{
+    display: inherit!important;
+    animation: show 0.2s ease 1;
 }
+.hide{
+    animation-delay: 1s;
+    animation: hide 1s ease infinite;
+   
+
+    
+}
+@keyframes show{
+    0%{
+        opacity: 0;
+       transform: scale(0.8);
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+
 .nav-main ul li a{
-    padding-top: 1px;
+  
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #454545;    
+    color: #2d2d2d;   
+   
 }   
 .nav-main ul li{
-    padding: 0;
-    text-align: center;
-    width: 100%;
-    height: 25px;
+    padding-top: 10px;
+    text-align: left;
+    width: 91%;
+    height: 30px;
+    cursor: pointer;
+    padding-left: 30px;
     background: #fafafa;
 }
+
+.nav-main ul li:hover{
+    padding-top: 10px;
+    text-align: left;
+    width: 91%;
+    height: 30px;
+    cursor: pointer;
+    padding-left: 30px;
+    background: #eee;
+}
+
 .nav-main ul{
     padding: 0;
     margin: 0;
@@ -56,7 +100,7 @@ a{
     border-bottom: 1px solid #eee;
 }
 .branding-img{
-    width: 40px;
+
     float: left;
     margin-top: 0;
     padding-top: 5px;;
@@ -104,22 +148,48 @@ a{
 }
 .menu-wrapper{
     width: 50%;
-    float: right;
-    height: 50px;
-    margin-top: -5px;   
+    float: right!important;
+    padding: 0;;
+    margin-top: -5px; 
+    position: absolute;
+    
+    z-index: 1;
+    
 }
-section#main-body{
-    min-height: 200px;
+.menu-wrapper-wrapper{
+    float: left;
+    margin-left: -20px;
+}
+
+/* Hehe */
+.left{
+    float: none;
+}
+.right{
+    float: none;
+}
+
+.announcement h2{
+    font-weight: 400;
+    color: #353535;
+    margin: 0;
+    padding-top: 15px;
+}
+.announcement{
+    width: 100%;
+    min-height: 300px;
+    background: #eee;
+
 }
 
 /* Footer */
 footer{
-    min-height: 100px;
-    background: #f2f2f2;
+    min-height: 120px;
+    background: #212121;
     border-top: 1px solid #eee;
 }
 .copyright{
     font-size: 12px;
-    color: #4d4d4d;
+    color: #FAFAFAFA;
     
 }

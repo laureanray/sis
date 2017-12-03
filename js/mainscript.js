@@ -1,5 +1,17 @@
 
 console.log('This is a test');
+$('.menu').on('click', function(){
+    
+    $(".nav-main, .nav-main ").toggleClass("hide show");
+    $(".menutxt").toggleClass('.menutxt:hover');
+});
+
+var x = window.innerHeight;
+console.log('heights');
+console.log(x);
+$(".nav-main").css("height", x - (0.08 * x));
+
+$(".mbody").css("min-height", x - (97) - (0.08 * x));
 $(document).ready(function() {
     console.log( "ready!" );
     $("#selectorRegion").change(function () {
@@ -353,5 +365,4 @@ $(document).ready(function() {
         });
 
       
-     
-});
+     });
