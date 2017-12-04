@@ -78,9 +78,10 @@ else{
     <footer>
     <div class="container">
         <div class="footer-wrapper">
-       
+            <br>
             <p class="copyright"> pup-sis-wannabe &copy; 2017 All Rights Reserved</p>
-            <p class="copyright"> Laurean Ray S. Bahala</p>
+            <p class="copyright"> Laurean Ray S. Bahala</p> <br>
+            <p class="copyright"> HTML5, CSS3, Jquery and PHP </p>
         </div>
     </div>
 </footer>

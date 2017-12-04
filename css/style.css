@@ -119,6 +119,8 @@ a{
     margin:0;
     width: 100%;
     height: 50px;
+    background: #f2f1f1;
+
     border-bottom: 1px solid #eee;
 }
 .branding-img{
@@ -147,7 +149,7 @@ a{
     width: 60px;
     border: 2px solid #2d2d2d;  
     text-align: center;
-    border-radius: 2px;
+    border-radius: 8px;
     padding-top: 2px;
     height: 28px;
     cursor: pointer;
@@ -162,7 +164,7 @@ a{
     width: 85px;
     border: 2px solid #2d2d2d;  
     text-align: center;
-    border-radius: 2px;
+    border-radius: 8px;
     padding-top: 2px;
     height: 28px;
     cursor: pointer;
@@ -257,6 +259,9 @@ footer{
     min-height: 120px;
     background: #212121;
     border-top: 1px solid #fafafa;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 .copyright{
     font-size: 13px;
@@ -266,60 +271,129 @@ footer{
 }
 
 /* Log In  */
-.login-wrapper h1{
-    font-weight: 400;
-    color: #353535;
-    margin: 0;
-    padding-top: 5px;
-    text-align: left;
-    padding-bottom: 9px;
-    font-size: 18px;
-}
 
-.login-wrapper h3{
-    text-align: center;
-    font-weight: 500;
-  
-    color: #353535;
+
+.label{
+    font-weight: 600;
     font-size: 16px;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 .login .normal-input{
-    width: 145px;
+    width: 220px;
     text-align: center;
-    height: 30px;
-    font-size: 13px;
-    border: 0;
+    height: 35px;
+    font-size: 14px;
+    margin-top: 10px;
+   
     outline: 0;
-    border-bottom: 2px solid #d2d2d2;
+    border: 1px solid #d2d2d2;
     display: inline-block;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-weight: bold;
     background: #fafafa;
     color: #353535;
-    margin-top: 5px;
-    margin-bottom: 20px;
+  
+    border-radius: 8px;
     transition: all 0.3s ease;  
+    
 }
 .login .normal-input:focus{
-    width: 220px;
-    text-align: center;
-    height: 30px;
-    font-size: 16px;
-    border: 0;
-    outline: 0;
-    letter-spacing: 4px;
-    border-bottom: 2px solid #d2d2d2;
-    display: inline-block;
-    font-weight: bold;
-    background: #fafafa;
-    color: #590903;
-    margin-top: 5px;
-    transition: all 0.3s ease;
+    
 }
 .login{
 
     margin-top: 50px;
     text-align: center;
 }
+.login-wrapper{
+    padding-bottom: 50px;
+}
+.select-long{
+    margin-top: 10px;
+    width: 105px;
+    height: 35px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Barlow', sans-serif;
+    transition: all 0.3s ease;
+    background: #fafafa;
+    color: #353535;
+    outline: 0;
+    border-radius: 8px;
+   
+    border: 1px solid #d2d2d2;
+}
+.select-long:focus{
+
+}
+.login-h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #212121;
+    font-weight: 700;
+}
+.select-short{
+   
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Barlow', sans-serif;
+    transition: all 0.3s ease;
+    background: #fafafa;
+    color: #353535;
+    outline: 0;
+    border-radius: 8px;
+   
+    border: 1px solid #d2d2d2;
+}
+.normal-input-short{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Barlow', sans-serif;
+    width: 40px;
+    margin: 0;
+    border: 1px solid #d2d2d2;
+    height: 32px;
+    outline: 0;
+    text-align: center;
+    color: #353535; 
+    transition: all 0.3s ease;
+    margin-left: 2px;
+    margin-right: 1px;
+    border-radius: 8px;
+    top: 0px;
+    position: relative;
+    background: #fafafa;
+}
+.normal-input-short:focus{
+  
+}
+
+button{
+    margin-top: 10px;
+    width: 100px;
+    background: #fafafa;
+    border: 1px solid #d2d2d2;
+    height: 40px;
+    transition: all 0.3s ease;
+    outline: 0;
+    font-size: 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+button:focus{
+    outline: 0;
+    width: 224px;
+    
+    font-weight: bold;
+    margin-right: 2px;
+    background: #590903;
+    color: #fafafa;
+    transition: all 0.3s ease;
+}   

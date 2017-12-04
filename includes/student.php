@@ -1,9 +1,9 @@
 <div class="login-wrapper">
-                <h1> Students Login</h1>
+                <h1 class="login-h1"> Students Login</h1>
                 <form action="login.php" method="POST" class="login">
                     <h3 class="label"> Student Number</h3>
                     <input class="normal-input" placeholder="0000-00000-MN-0"   type="text" name="studno" required>
-                    <h3 class="label"> Birthday</h3>
+                   <br><br> <h3 class="label"> Birthday</h3>
                     <div class="option-wrapper">
                         <select class="select-long" name="bday_month" id="1">
                             <option value="January"> January </option>
@@ -39,10 +39,12 @@
                                 <option value="1989" id="options">1989</option>
                                 <option value="1988" id="options">1988</option>
                             </select>
+                            <br>
+                            <br>
                     </div>
                     <h3 class="label" > Password</h3>
-                    <input type="password" class="normal-input" required>
+                    <input type="password" class="normal-input" placeholder="PASSWORD" required>
                     <br>
-                    <button name="submit"> Log In </button>
+                    <button name="submit"> LOG IN </button>
                 </form>
 </div>

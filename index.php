@@ -27,7 +27,7 @@
             <div class="announcement-wrapper">
                 <div class="announcement-box">
                   
-                    <h3> Server Maintenance </h3>
+                    <h3> Cafe Classico 101 </h3>
                     <p> Server Maintenance on December 25, 2017. All services from faculty and students w
                         ill be temporarily unavailable. </p>
                   

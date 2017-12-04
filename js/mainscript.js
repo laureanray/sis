@@ -12,9 +12,13 @@ var y = window.innerWidth;
 console.log('heights');
 console.log(x);
 console.log(y);
+var oldVar = x;
+if(oldVar != x){
+    alert("Variable has cjanged");
+}
 $(".nav-main").css("height", x - (0.08 * x));
 $(".menu-wrapper-wrapper").css("margin-left", (y - (y * 0.95)) * -1);
-$(".mbody").css("min-height", x - (97) - (0.08 * x));
+$(".mbody").css("min-height", x - (165) - (0.08 * x));
 $(document).ready(function() {
     console.log( "ready!" );    
     $("#selectorRegion").change(function () {

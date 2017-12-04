@@ -50,7 +50,7 @@ if(isset($_POST['submit'])){
 }?>
                 <form action="" method="POST" class="login">
                     <h3 class="label"> Username</h3>
-                    <input class="normal-input-low" type="text" name="admin_username" required>
+                    <input class="normal-input" type="text" name="admin_username" required>
                     <h3 class="label" > Password</h3>
                     <input type="password" class="normal-input" name="admin_password" required>
                     <br>
