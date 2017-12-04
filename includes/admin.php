@@ -1,5 +1,5 @@
 <div class="login-wrapper">
-                <h1> Admin Login</h1>
+                <h1 class="login-h1"> Admin Login</h1>
                 <?php include "db.php";
 if(isset($_SESSION['username'])){
     header("Location: admin.php?page=status");
@@ -49,11 +49,13 @@ if(isset($_POST['submit'])){
   
 }?>
                 <form action="" method="POST" class="login">
+                <br><br>
                     <h3 class="label"> Username</h3>
                     <input class="normal-input" type="text" name="admin_username" required>
                     <h3 class="label" > Password</h3>
                     <input type="password" class="normal-input" name="admin_password" required>
                     <br>
                     <button name="submit"> Log In </button>
+                    <br><br><br><br><br><br><br>
                 </form>
             </div>

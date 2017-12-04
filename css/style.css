@@ -66,15 +66,7 @@ a{
   
 }   
 .selected{
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    border: 1px solid #2d2d2d;
-    position: absolute;
-    margin-top: -15px;
-    left: 20%;
-    float: left;
-    transition: all 0.3s ease;
+ background: #590903;
 
 }
 .nav-main ul li{
@@ -147,7 +139,7 @@ a{
     font-size: 20px;
     float: right;
     width: 60px;
-    border: 2px solid #2d2d2d;  
+    border: 1px solid #2d2d2d;  
     text-align: center;
     border-radius: 8px;
     padding-top: 2px;
@@ -162,7 +154,7 @@ a{
     font-size: 20px;
     float: right;
     width: 85px;
-    border: 2px solid #2d2d2d;  
+    border: 1px solid #2d2d2d;  
     text-align: center;
     border-radius: 8px;
     padding-top: 2px;
@@ -177,7 +169,7 @@ a{
     margin-top: -5px; 
     position: absolute;
     
-    z-index: 1;
+    z-index: 111111;
     
 }
 .menu-wrapper-wrapper{
@@ -188,9 +180,9 @@ a{
     text-align: center;
 }
 .lg-passive{
-    opacity: 0.3;
+    opacity: 0.1;
     top: 50%;
-    width: 80px;
+    width: 200px;
     display: inline-block;
 }
 /* Hehe */
@@ -259,8 +251,8 @@ footer{
     min-height: 120px;
     background: #212121;
     border-top: 1px solid #fafafa;
-    position: absolute;
-    bottom: 0px;
+ 
+   
     width: 100%;
 }
 .copyright{
@@ -367,8 +359,9 @@ footer{
     margin-right: 1px;
     border-radius: 8px;
     top: 0px;
-    position: relative;
+
     background: #fafafa;
+    
 }
 .normal-input-short:focus{
   
