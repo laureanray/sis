@@ -59,7 +59,48 @@
              </div>
         </div>
         </div>
+        <!-- Desktop -->
 
+        <div class="desktop-content">
+            <div class="container">
+                <div class="dt-left">
+                    <h1 class="dt-h1"> Announcement </h1> 
+                    
+            <div class="announcement-wrapper">
+                <div class="announcement-box">
+                  
+                    <h3> Cafe Classico 101 </h3>
+                    <p> Server Maintenance on December 25, 2017. All services from faculty and students w
+                        ill be temporarily unavailable. </p>
+                  
+                  
+                </div>
+                <div class="announcement-box">
+                  
+                    <h3> Server Maintenance </h3>
+                    <p> Server Maintenance on December 20, 2017. All services from faculty and students w
+                        ill be temporarily unavailable. </p>
+                  
+                  
+                </div>
+                <div class="announcement-box">
+                  
+                    <h3> Server Maintenance </h3>
+                    <p> Server Maintenance on December 18, 2017. All services from faculty and students w
+                        ill be temporarily unavailable. </p>
+                  
+                  
+                </div>
+            </div>
+       
+                </div>
+                <div class="dt-right">
+                     <h1 class="dt-h1"> Twitter Feed </h1> 
+                     <a class="twitter-timeline" data-width="100%" data-height="400" href="https://twitter.com/ThePUPOfficial?ref_src=twsrc%5Etfw">Tweets by ThePUPOfficial</a>
+             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
             <div class="container">

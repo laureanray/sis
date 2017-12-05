@@ -1,5 +1,5 @@
 /* Global */
-@import url('https://fonts.googleapis.com/css?family=Barlow:100,300,300i,400,400i,500,500i,600,600i,700,700i,800,900');
+@import url('https://fonts.googleapis.com/css?family=Barlow:300,400,500,500i,600,700,800');
 html{
     font-family: 'Barlow', sans-serif;
 }
@@ -38,9 +38,7 @@ a{
     animation: show 0.2s ease 1;
 }
 .hide{
-    display: none;
-
-    
+    display: none!important;    
 }
 
 @keyframes show{
@@ -56,6 +54,93 @@ a{
 }
 
 
+.loader-wrapper{
+    position: relative;
+    display: inline-block;
+    margin-top: 300px;
+   
+}
+.loader-wrapper-wrapper{
+   
+    text-align: center;
+}
+
+.loader1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #c1c1c1;
+    margin: 0 5px 0 5px;
+    float: left;
+    animation: loading 1s ease infinite;
+
+}
+.loader2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #c1c1c1;
+    margin: 0 5px 0 5px;
+    float: left;
+    animation: loading2 1s ease infinite;
+
+}
+.loader3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #c1c1c1;
+    margin: 0 5px 0 5px;
+    float: left;
+    animation: loading3 1s ease infinite;
+
+}
+
+@keyframes loading{
+    0%, 100%{
+        transform: translateX(0px);
+        background: #801010;
+    }
+    50%{
+        transform: translateX(-20px);
+        background: #f9ad15;
+    }
+}
+@keyframes loading2{
+    0%, 100%{
+        transform: scale(1);
+        background: #f9ad15;
+    }
+    50%{
+        transform: scale(1.4);
+        background: #801010;
+    }
+}
+@keyframes loading3{
+    0%, 100%{
+        transform: translateX(0px);
+        background: #801010;
+    }
+    50%{
+        transform: translateX(20px);
+        background: #f9ad15;
+    }
+}
+
+@keyframes onload{
+    0%{
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.load-anim{
+    animation: onload 0.3s ease 1;
+
+}
 
 .nav-main ul li a{
   
@@ -74,11 +159,15 @@ a{
     text-align: left;
     width: 91%;
     height: 35px;
-    cursor: pointer;
+   
     padding-left: 30px;
     background: #fafafa;
     letter-spacing: 1px;
    
+}
+.current-link{
+    color: #590903!important;
+    font-weight: 600!important;
 }
 .nav-main ul li:hover .selected{
     width: 15px;
@@ -88,17 +177,7 @@ a{
     left:25%;
     transition: all 0.3s ease;
 }
-.nav-main ul li:hover{
-    padding-top: 10px;
-    text-align: left;
-    width: 91%;
-    height: 35px;
-    cursor: pointer;
-    padding-left: 30px;
-    background: #eee;
-  
-    transition: all 0.3s ease;
-}
+
 
 .nav-main ul{
     padding: 0;
@@ -401,6 +480,48 @@ button:focus{
 }
 
 @media(min-width: 768px){
+    /* Desktop Content ----- */
+    .desktop-content{
+        margin-top: 20px;
+        width: 100%;
+        min-height: 500px;
+        background: #fafafa;
+    }
+    .desktop-content .dt-left{
+        width: 69%;
+        float: left;
+        background: #fafafa;
+        height: 300px;
+        border-right: 1px solid #eee;
+    }
+    .desktop-content .dt-right{
+        width: 30%;
+        float: left;
+        background: #fafafa;
+        height: 300px;
+    }
+    .desktop-content .dt-h1{
+        font-weight: 400;
+        color: #353535;
+        margin: 0;
+        padding-top: 5px;
+        text-align: left;
+        padding-bottom: 9px;
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    .twitter-timeline{
+        margin-left: 10px;
+        font-size: 14px!important;
+        border-radius: 5px;
+        background: #fafafa;
+    }
+
+
+
+
+
+    /* --- */
     #load{
         width:100%;
         height:100%;
@@ -488,5 +609,5 @@ button:focus{
     .lg-passive{
         display: none;  
     }
-
+    /* Admin Section */
 }

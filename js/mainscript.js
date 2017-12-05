@@ -1,12 +1,12 @@
 document.onreadystatechange = function () {
     var state = document.readyState
     if (state == 'interactive') {
-         document.getElementById('contents').style.visibility="hidden";
+
     } else if (state == 'complete') {
         setTimeout(function(){
-           document.getElementById('interactive');
+          
            document.getElementById('load').style.display="none";
-         
+           load();
         },1000);
     }
   }
@@ -19,13 +19,18 @@ $('.menu').on('click', function(){
 });
 // if mobile devices only
 // so
-
+function load(){
+    $(".mbody").addClass("load-anim");
+    console.log("ANimation >>");
+}
 var x = window.innerHeight;
 var y = window.innerWidth;
 if(y <= 765){
     $(".nav-main").css("height", x - (0.08 * x));
+    $(".desktop-content").addClass('hide');
 }
 else{
+    $(".left").addClass('hide');
     $(".nav-main").css("height", 50);
      $(".nav-main ").css("right", (y - (y * 0.95)) * 1);
 }
