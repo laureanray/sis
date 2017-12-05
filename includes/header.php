@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/splash.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>PUP SIS</title>
     <!-- <script
@@ -13,8 +14,16 @@
   crossorigin="anonymous"></script> -->
 </head>
 <body>
+
     <header>
-      
+    <div class="loader-wrapper-wrapper" id="load"> 
+    <div class="loader-wrapper">
+        <div class="loader1"></div>
+        <div class="loader2"></div>
+        <div class="loader3"></div>
+    </div>
+</div>
+
           
                  <div class="branding">
                   <div class="container">
@@ -22,6 +31,7 @@
                       <img src="img/pup.png" alt="" class="branding-img">
                 <h1 class="branding-text"> PUP <span id="gray"> SIS </span> </h1>
               
+                      </div>
                       </div>
                       <div class="menu-wrapper-wrapper">
                       <div class="menu-wrapper">
@@ -41,6 +51,7 @@
            
         
 </div>
+
             <nav class="nav-main hide" >
           
               

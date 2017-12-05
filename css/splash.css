@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i'); */
+@import url('https://fonts.googleapis.com/css?family=Barlow:100,300,300i,400,400i,500,500i,600,600i,700,700i,800,900');
+
 html{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Barlow', sans-serif;
 }
 body{
     border: 0;
@@ -11,24 +13,85 @@ body{
     width: 90%;
     margin: auto;
 }
+.loader-wrapper{
+    position: relative;
+    display: inline-block;
+    margin-top: 300px;
+   
+}
+.loader-wrapper-wrapper{
+   
+    text-align: center;
+}
 
-/* Main Style */
-.text-wrapper h1{
-    font-size: 120px;
-    font-weight: 700;
-    color: #aa0505;
-    margin: 0;
-    padding-top: 50px;
-    text-transform: uppercase;
+.loader1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #c1c1c1;
+    margin: 0 5px 0 5px;
+    float: left;
+    animation: loading 1s ease infinite;
+
 }
-.text-wrapper h2{
-    font-size: 40px;
-    font-weight: 700;
-    color: #aa0505;
-    margin-top: -15px;
+.loader2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #c1c1c1;
+    margin: 0 5px 0 5px;
+    float: left;
+    animation: loading2 1s ease infinite;
+
+}
+.loader3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #c1c1c1;
+    margin: 0 5px 0 5px;
+    float: left;
+    animation: loading3 1s ease infinite;
+
+}
+
+@keyframes loading{
+    0%, 100%{
+        transform: translateX(0px);
+        background: #801010;
+    }
+    50%{
+        transform: translateX(-20px);
+        background: #f9ad15;
+    }
+}
+@keyframes loading2{
+    0%, 100%{
+        transform: scale(1);
+        background: #f9ad15;
+    }
+    50%{
+        transform: scale(1.4);
+        background: #801010;
+    }
+}
+@keyframes loading3{
+    0%, 100%{
+        transform: translateX(0px);
+        background: #801010;
+    }
+    50%{
+        transform: translateX(20px);
+        background: #f9ad15;
+    }
+}
+
+h1{
+    font-weight: normal;
+    text-align: center;
+    color: #414141;
+    font-size: 16px;
+    margin-top: 275px;
+    margin-bottom: -280px;
     padding: 0;
-    text-transform: uppercase;
-}
-.yellow{
-    color: #fbff2c;
 }
