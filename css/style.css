@@ -248,11 +248,10 @@ a{
 }
 /* Footer */
 footer{
+   
     min-height: 120px;
     background: #212121;
     border-top: 1px solid #fafafa;
- 
-   
     width: 100%;
 }
 .copyright{
@@ -261,7 +260,9 @@ footer{
     margin: 0;
     padding-top: 5px 5px;
 }
-
+.right{
+    min-height: 300px;
+}
 /* Log In  */
 
 
@@ -383,10 +384,77 @@ button{
 button:focus{
     outline: 0;
     width: 224px;
-    
     font-weight: bold;
     margin-right: 2px;
     background: #590903;
     color: #fafafa;
     transition: all 0.3s ease;
 }   
+
+
+@media(min-width: 768px){
+    .branding{
+        width: 100%;
+        
+    }
+    .menu-wrapper-wrapper{
+        display: none;
+    }
+    .nav-main{
+        background: none;
+        display: inline-block;
+        width: 100%;
+        float: right!important;
+        padding-top: 15px;
+        position: absolute;
+        right: 0;
+    }
+    .nav-main ul li a{
+          font-size: 12px;
+          text-transform: none;
+          font-weight: 500;
+          color: #2d2d2d;
+      display: inline;
+      }  
+      .nav-main ul li{
+        padding-top: 0px;
+        text-align: center;
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        padding: 0;
+        background: none;
+        float: left;
+        padding: 0 10px 0 10px;  
+       
+    }
+    .nav-main ul li:hover .selected{
+        width: 15px;
+        height: 15px;
+        border-radius: 0;
+        background: #2d2d2d;
+        left:0;
+        
+    }
+    .nav-main ul li:hover{
+        padding-top: 0px;
+        text-align: center;
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        padding: 0;
+        background: none;
+        float: left;
+        padding: 0 20px 0 20px;  
+    }
+    
+    .nav-main ul{
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        float: right;
+    }
+    .lg-passive{
+        opacity: 0;
+    }
+}

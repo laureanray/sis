@@ -6,17 +6,26 @@ $('.menu').on('click', function(){
     $(".nav-main, .nav-main ").toggleClass("hide show");
     $(".menutxt").toggleClass('.menutxt:hover');
 });
-    
+// if mobile devices only
+// so
+
 var x = window.innerHeight;
 var y = window.innerWidth;
+if(y <= 765){
+    $(".nav-main").css("height", x - (0.08 * x));
+}
+else{
+    $(".nav-main").css("height", 50);
+}
+
 console.log('heights');
 console.log(x);
 console.log(y);
 var oldVar = x;
 if(oldVar != x){
-    alert("Variable has cjanged");
+    alert("Variable has changed");
 }
-$(".nav-main").css("height", x - (0.08 * x));
+
 $(".menu-wrapper-wrapper").css("margin-left", (y - (y * 0.95)) * -1);
 $(".mbody").css("min-height", x - (165) - (0.08 * x));
 $(document).ready(function() {
