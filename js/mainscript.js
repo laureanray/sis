@@ -16,6 +16,7 @@ if(y <= 765){
 }
 else{
     $(".nav-main").css("height", 50);
+     $(".nav-main ").css("right", (y - (y * 0.95)) * 1);
 }
 
 console.log('heights');

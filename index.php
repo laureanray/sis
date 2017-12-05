@@ -3,7 +3,7 @@
 ?>  
                 
                   <ul>              
-                    <li> <a href="index.html" class="current-link"> Home </a>   </li>
+                    <li> <a href="#" class="current-link"> Home </a>   </li>
                   
                     <li><a class="login" href="login.php?type=student"> Students </a></li> 
                     <li> <a href="login.php?type=faculty"> Faculty </a></li>
