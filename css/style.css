@@ -438,7 +438,7 @@ footer{
     margin-left: 2px;
     margin-right: 1px;
     border-radius: 8px;
-    top: 0px;
+    top: 0;
 
     background: #fafafa;
     
@@ -543,7 +543,7 @@ button:focus{
 
         width: 100%;
         float: left!important;
-        padding-top: 0px;
+        padding-top: 0;
         position: absolute;
       
         z-index: 99;
@@ -555,48 +555,38 @@ button:focus{
     text-transform: none;
     font-weight: 500;
           position: relative;
-        bottom: -15px;
+        bottom: -12px;
         color: #590903;
       }  
       .nav-main ul li{
-        padding-top: 0px;
+        padding-top: 0;
         text-align: center;
         width: 100px;
         height: 50px;
-        cursor: pointer;
+        
         padding: 0;
         background: none;
         float: left;
         padding: 0 10px 0 10px;  
        
     }
-    .nav-main ul li:hover .selected{
-        width: 15px;
-        height: 15px;
-        border-radius: 0;
-        background: #2d2d2d;
-        left:0;
-        
-    }
+
     .current-link{
         color: #212121!important;
         font-weight: 600!important;
     }
     .nav-main ul li:hover a{
-        color: #fafafa!important;
+        color: #181818!important;
         
     }
     .nav-main ul li:hover{
-        padding-top: 0px;
         text-align: center;
         width: 100px;
         height: 50px;
-        cursor: pointer;
-        padding: 0;
-        background: #590903;
-        color: #fafafa;
-        float: left;
-        padding: 0 10px 0 10px;   
+
+
+        color: #181818;
+
     }
     
     .nav-main ul{
