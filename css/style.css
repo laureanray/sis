@@ -151,8 +151,8 @@ a{
   
 }   
 .selected{
- background: none;
-
+    background: #fafafa!important;
+    color: #181818!important;
 }
 .nav-main ul li{
     padding-top: 10px;
@@ -331,9 +331,9 @@ a{
 /* Footer */
 footer{
    
-    min-height: 120px;
+    min-height: 175px;
     background: #212121;
-    border-top: 1px solid #fafafa;
+
     width: 100%;
 }
 .copyright{
@@ -591,7 +591,10 @@ button:focus{
         color: #181818;
 
     }
-    
+    #administrator-name{
+        font-weight: 700;
+    }
+
     .nav-main ul{
         padding: 0;
         margin: 0;
@@ -607,19 +610,24 @@ button:focus{
     section#admin .admin-nav{
         margin: 0;
         background: #590903;
-        width: 250px;
+        width: 220px;
         height: 500px;
     }
     section#admin .admin-nav nav ul li a{
         padding-top: 19px;
+        padding-left: 20px;
         display: inline-block;
         height: 40px;
-        background: #fafafa;
-        width: 250px;
-        text-align: center;
+        background: #222222;
+        width: 200px;
+        text-align: left;
+        color: #fafafa;
+        transition: all 0.2s ease;
     }
     section#admin .admin-nav nav ul li a:hover{
         background: #eee;
+        color: #181818;
+        transition: all 0.2s ease;
     }
     section#admin .admin-nav nav ul li{
 

@@ -19,7 +19,12 @@
 
                 <nav>
                     <ul>
-                    <?php session_start(); 
+
+                        <li>
+                            <a href="#" id="administrator-name"> Administrator </a>
+                        </li>
+
+                        <?php session_start();
                             if(!isset($_SESSION['username'])){
                             echo "eraera";
                             header("Location: login.php?type=administrator");
