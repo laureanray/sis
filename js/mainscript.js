@@ -38,6 +38,7 @@ else{
 console.log('heights');
 console.log(x);
 console.log(y);
+// noinspection UnnecessaryLocalVariableJS
 var oldVar = x;
 if(oldVar != x){
     alert("Variable has changed");

@@ -16,7 +16,7 @@
     </header>
     <section id="admin">
         <div class="admin-nav">
-            <div class="container">
+
                 <nav>
                     <ul>
                     <?php session_start(); 
@@ -149,9 +149,7 @@
                       
                        
                         <li>
-                                <form action="search.php" method="post">
-                                        <input type="text" placeholder="Search">
-                                    </form>
+                            <a href="#"> Search </a>
                         </li>
                         
                       
@@ -159,7 +157,7 @@
                        
                     </ul>
                 </nav>
-            </div>
+
         </div>
         <div class="admin-dashboard">
             <div class="status-wrapper">

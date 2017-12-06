@@ -1,7 +1,6 @@
 <?php include "includes/header.php";
 
-?>  
-                
+?>
                   <ul>              
                     <li> <a href="#" class="current-link"> Home </a>   </li>
                   
